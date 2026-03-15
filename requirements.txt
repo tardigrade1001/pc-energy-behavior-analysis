@@ -1,0 +1,17 @@
+# PC Electricity Consumption — EDA Notebook
+# Dependencies for pc_energy_analysis_notebook.ipynb
+# Python 3.9+
+#
+# Install:
+#   pip install -r requirements.txt
+
+numpy>=1.24,<3
+pandas>=1.5,<4
+scipy>=1.9,<2
+scikit-learn>=1.2,<2
+matplotlib>=3.6,<4
+seaborn>=0.12,<1
+
+# Optional: run the notebook interactively
+# jupyter>=1.0
+# ipykernel>=6.0

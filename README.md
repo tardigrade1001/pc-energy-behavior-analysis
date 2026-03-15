@@ -12,7 +12,7 @@
 
 <br>
 
-| 📅 Period | 📊 Days Recorded | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home Premium |
+| 📅 Period | 📊 Days Recorded | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home vs University |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Mar 2025 – Mar 2026 | **322** | **494.1 kWh** | **222** | **100** | **+229%** |
 
@@ -179,7 +179,7 @@ These periods are **not imputed** — they represent genuine physical absence:
 
 | Metric | Value |
 |--------|-------|
-| ⚡ Home energy premium per day | **+1.363 kWh (+229%)** |
+| ⚡ Home energy consumption per day | **+1.363 kWh (+229%)** |
 | 🔌 Estimated average active draw | **~245 W** (8 h/day assumption) |
 | ⚠️ Peak estimated draw | **~451 W** (29 Jun 2025) |
 | 🎓 Avg active use on University days | **~2–3 h/day** (morning + evening sessions) |

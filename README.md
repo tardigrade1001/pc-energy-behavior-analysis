@@ -239,7 +239,7 @@ computing activity after 30 days away from the machine.
 ## 👤 Author
 
 **Uddipan Dasgupta**  
-PhD Candidate · Nanotechnology & Advanced Materials  
+PhD Student · Amity Institute of Nanotechnology
 Amity University Kolkata, West Bengal, India  
 GitHub: [@tardigrade1001](https://github.com/tardigrade1001)
 

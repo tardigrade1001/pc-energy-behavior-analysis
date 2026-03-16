@@ -81,9 +81,6 @@ jupyter notebook pc_energy_analysis_notebook.ipynb
 **Run All Cells** — the full pipeline executes in under 60 seconds and generates all
 17 figures in `figures/`.
 
-> **Switching output format:** change `FIG_FORMAT = "png"` to `"svg"` or `"pdf"`
-> in Section 2 of the notebook. All figures update automatically.
-
 ---
 
 ## 📁 Data Format
@@ -132,9 +129,9 @@ Raw CSV → Feature Engineering → Descriptive Statistics
 
 | 🌏 Destination | Period | Days | Context |
 |---|---|---|---|
-| Shizuoka, Japan 🇯🇵 | 1 Apr – 30 Apr 2025 | 30 | Research collaboration |
-| Mumbai, India 🇮🇳 | 8 Oct – 11 Oct 2025 | 4 | Academic conference |
-| Jeju, South Korea 🇰🇷 | 22 Nov – 1 Dec 2025 | 10 | Academic conference |
+| Shizuoka, Japan | 1 Apr – 30 Apr 2025 | 30 | Research collaboration |
+| Mumbai, India | 8 Oct – 11 Oct 2025 | 4 | Academic conference |
+| Jeju, South Korea | 22 Nov – 1 Dec 2025 | 10 | Academic conference |
 
 ---
 
@@ -183,7 +180,7 @@ Raw CSV → Feature Engineering → Descriptive Statistics
 | **7 · Temporal Analysis** | 7-day & 14-day rolling windows |
 | **8 · Clustering Analysis** | K-Means fit, centroid labeling |
 | **9 · Figure Generation** | All 17 figures in paper order |
-| **Appendix** | Figures 16–17, figure inventory |
+| **Appendix** | Figures 16–17 |
 
 ---
 
@@ -211,7 +208,6 @@ Running the notebook saves the following files to `figures/`:
 | `figA16_day_counts` | Appendix 16 | Monthly Home vs University day counts |
 | `figA17_dow_scatter` | Appendix 17 | kWh vs day-of-week scatter |
 
-File extension matches `FIG_FORMAT` (default: `.png`).
 
 ---
 

@@ -1,7 +1,12 @@
-# ⚡ PC Electricity Consumption — Annual EDA
+# Personal Desktop Computer Electricity Consumption
+### A Full-Year Exploratory Data Analysis of Computing Behavior
 
-**A full-year behavioral study of personal desktop computing energy use,
-tracked via a dedicated smart plug power meter across 322 days.**
+This repository contains the dataset, analysis notebook, and figures for a one-year
+exploratory analysis of personal desktop computer electricity consumption measured with
+a smart plug energy monitor. Data was recorded continuously from 13 March 2025 to
+13 March 2026 — a complete calendar year of 365 days. Of these, **322 days carry active
+power readings**; the remaining 43 days are three intentional travel intervals during which
+the machine was physically off and unplugged.
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -9,15 +14,15 @@ tracked via a dedicated smart plug power meter across 322 days.**
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 
-| 📅 Period | 📊 Days Recorded | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home vs University |
-|---|---|---|---|---|---|
-| Mar 2025 – Mar 2026 | **322** | **494.1 kWh** | **222** | **100** | **+229%** |
+| 📅 Period | 📆 Full Year | 📊 Days with Readings | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home vs University |
+|---|---|---|---|---|---|---|
+| Mar 2025 – Mar 2026 | **365 days** | **322** | **494.1 kWh** | **222** | **100** | **+229%** |
 
 ---
 
 ## 📖 Overview
 
-This project is a comprehensive **Exploratory Data Analysis (EDA)** of one year of daily
+This project is a comprehensive **Exploratory Data Analysis (EDA)** of one full year of daily
 electricity consumption recorded from a smart plug connected exclusively to a personal desktop
 computer system — including the PC, GPU, CPU, monitor, and all peripherals on the same strip.
 No other household appliances share the circuit.
@@ -266,4 +271,4 @@ Data: see [DATA_LICENSE](DATA_LICENSE)
 
 ---
 
-*Data collection period: 13 March 2025 – 13 March 2026 · 322 days · 494.1 kWh · 17 figures*
+*Data collection period: 13 March 2025 – 13 March 2026 · 365-day year · 322 days with readings · 494.1 kWh · 17 figures*

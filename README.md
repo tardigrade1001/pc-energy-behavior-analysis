@@ -42,6 +42,9 @@ pc-energy-behavior-analysis/
 │
 ├── 📁 figures/                            ← Output figures (auto-generated on run)
 │
+├── 📁 paper/
+│   └── PC_Electricity_EDA_Paper.pdf       ← Research paper
+│
 ├── 📄 LICENSE                             ← MIT License (code)
 ├── 📄 DATA_LICENSE                        ← Data license
 └── 📄 README.md

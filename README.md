@@ -3,10 +3,10 @@
 
 This repository contains the dataset, analysis notebook, and figures for a one-year
 exploratory analysis of personal desktop computer electricity consumption measured with
-a smart plug energy monitor. Data was recorded continuously from 13 March 2025 to
-13 March 2026 — a complete calendar year of 365 days. Of these, **322 days carry active
-power readings**; the remaining 43 days are three intentional travel intervals during which
-the machine was physically off and unplugged.
+a smart plug energy monitor. Data was recorded across a one-year observation window from
+13 March 2025 to 13 March 2026, spanning **366 days**. Of these, **322 days carry
+active power readings**; the remaining 44 days correspond to three intentional travel
+intervals during which the PC was powered off and unplugged.
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -14,9 +14,9 @@ the machine was physically off and unplugged.
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 
-| 📅 Period | 📆 Full Year | 📊 Days with Readings | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home vs University |
+| 📅 Period | 📆 Observation Window | 📊 Days with Readings | ⚡ Total Energy | 🏠 Home Days | 🎓 University Days | 📈 Home vs University |
 |---|---|---|---|---|---|---|
-| Mar 2025 – Mar 2026 | **365 days** | **322** | **494.1 kWh** | **222** | **100** | **+229%** |
+| Mar 2025 – Mar 2026 | **366 days** | **322** | **494.1 kWh** | **222** | **100** | **+229%** |
 
 ---
 
@@ -78,8 +78,8 @@ pip install -r requirements.txt
 jupyter notebook pc_energy_analysis_notebook.ipynb
 ```
 
-**Run All Cells** — the full pipeline executes in under 60 seconds and saves all
-17 figures to `figures/`.
+**Run All Cells** — the full pipeline executes in under 60 seconds and generates all
+17 figures in `figures/`.
 
 > **Switching output format:** change `FIG_FORMAT = "png"` to `"svg"` or `"pdf"`
 > in Section 2 of the notebook. All figures update automatically.
@@ -128,7 +128,7 @@ Raw CSV → Feature Engineering → Descriptive Statistics
 | 🏠 **Home Day** | Date not in university log | 222 (68.9%) |
 | 🎓 **University Day** | Date present in university log | 100 (31.1%) |
 
-### Intentional Data Gaps (Travel — not imputed)
+### Intentional Data Gaps (Travel)
 
 | 🌏 Destination | Period | Days | Context |
 |---|---|---|---|
@@ -233,8 +233,7 @@ annual total) reflects two genuine short sessions per day — a brief morning wi
 commuting and an evening session after returning — totaling approximately 2–3 active hours.
 
 **4 · Travel gaps are legible directly in the data.**
-The April 2025 Japan plateau (~60 kWh of consumption that did not occur), the October Mumbai
-dip, and the November–December Jeju gap are all visible as flat segments in the cumulative
+the April plateau, the October travel dip, and the late-November gap are all visible as flat segments in the cumulative
 curve without any annotation needed.
 
 **5 · Peak intensity clusters in early summer.**
@@ -271,4 +270,4 @@ Data: see [DATA_LICENSE](DATA_LICENSE)
 
 ---
 
-*Data collection period: 13 March 2025 – 13 March 2026 · 365-day year · 322 days with readings · 494.1 kWh · 17 figures*
+*Data collection period: 13 March 2025 – 13 March 2026 · 366-day observation window · 322 days with readings · 494.1 kWh · 17 figures*

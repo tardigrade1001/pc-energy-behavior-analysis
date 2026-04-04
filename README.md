@@ -1,5 +1,5 @@
 # Personal Desktop Computer Electricity Consumption
-### A Full-Year Exploratory Data Analysis of Computing Behavior
+### A Full-Year Exploratory Data Analysis of Computing Behaviour
 
 This repository contains the dataset, analysis notebook, and figures for a one-year
 exploratory analysis of personal desktop computer electricity consumption measured with
@@ -27,7 +27,7 @@ electricity consumption recorded from a smart plug connected exclusively to a pe
 computer system — including the PC, GPU, CPU, monitor, and all peripherals on the same strip.
 No other household appliances share the circuit.
 
-The central finding is that the power data alone functions as a **high-fidelity behavioral
+The central finding is that the power data alone functions as a **high-fidelity behavioural
 sensor**: the near-complete bimodal separation between Home Days and University Days means a
 single 0.9 kWh energy threshold reconstructs the university visit log with >95% accuracy.
 
@@ -110,7 +110,7 @@ One ISO date per line. Dates present here → **University Day**; all others →
 ```
 Raw CSV → Feature Engineering → Descriptive Statistics
         → Distribution Analysis (KDE, Histograms)
-        → K-Means Clustering  (k = 3 behavioral states)
+        → K-Means Clustering  (k = 3 behavioural states)
         → Time-Series Smoothing (7-day & 14-day rolling means)
         → Temporal Variability  (14-day rolling std)
         → Weekly & Monthly Pattern Analysis
@@ -157,7 +157,7 @@ Raw CSV → Feature Engineering → Descriptive Statistics
 | ⚠️ Peak estimated draw | **~451 W** (29 Jun 2025) |
 | 🎓 Estimated active use on University days | **~2–3 h/day** |
 
-### K-Means Behavioral States (k = 3)
+### K-Means Behavioural States (k = 3)
 
 | State | Centroid | Days | Share | Interpretation |
 |---|---|---|---|---|
@@ -202,7 +202,7 @@ Running the notebook saves the following files to `figures/`:
 | `fig10_heatmap_dow_month` | Figure 10 | Day-of-week × Month heatmap |
 | `fig11_weekday_weekend` | Figure 11 | Weekday vs weekend violin / KDE / bar |
 | `fig12_kmeans_states` | Figure 12 | K-Means state time series + count chart |
-| `fig13_states_by_daytype` | Figure 13 | Behavioral states by day type + month |
+| `fig13_states_by_daytype` | Figure 13 | Behavioural states by day type + month |
 | `fig14_cumulative` | Figure 14 | Cumulative energy consumption curve |
 | `fig15_rolling_variability` | Figure 15 | 14-day rolling mean ± std + variability |
 | `figA16_day_counts` | Appendix 16 | Monthly Home vs University day counts |
@@ -211,17 +211,17 @@ Running the notebook saves the following files to `figures/`:
 
 ---
 
-## 🧠 Key Behavioral Insights
+## 🧠 Key Behavioural Insights
 
-**1 · The smart plug as a behavioral sensor.**
+**1 · The smart plug as a behavioural sensor.**
 The bimodal energy distribution cleanly separates Home and University days. A single 0.9 kWh
 threshold achieves >95% classification accuracy — no additional sensors or metadata required.
 
 **2 · Home computing is highly habitual.**
-A CV of 21.5% across 222 home days is remarkably low for a year-long behavioral dataset. The
+A CV of 21.5% across 222 home days is remarkably low for a year-long behavioural dataset. The
 home sessions span research work, hobby projects, gaming, AI image generation workflows, and
 creative computing — yet produce a stable daily energy signature across the full year. The
-consistency comes from behavioral regularity, not task type.
+consistency comes from behavioural regularity, not task type.
 
 **3 · University days represent real, compressed usage.**
 The PC is switched off at the wall before leaving. The 59.5 kWh on university days (12% of
@@ -229,7 +229,7 @@ annual total) reflects two genuine short sessions per day — a brief morning wi
 commuting and an evening session after returning — totaling approximately 2–3 active hours.
 
 **4 · Travel gaps are legible directly in the data.**
-the April plateau, the October travel dip, and the late-November gap are all visible as flat segments in the cumulative
+The April plateau, the October travel dip, and the late-November gap are all visible as flat segments in the cumulative
 curve without any annotation needed.
 
 **5 · Peak intensity clusters in early summer.**

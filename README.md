@@ -243,7 +243,7 @@ computing activity after 30 days away from the machine.
 
 **Uddipan Dasgupta**  
 PhD Student · Amity Institute of Nanotechnology
-Amity University Kolkata, West Bengal, India  
+Amity University Kolkata, India  
 GitHub: [@tardigrade1001](https://github.com/tardigrade1001)
 
 ---
